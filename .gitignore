@@ -1,0 +1,35 @@
+# Credentials & secrets
+*.env
+.env.*
+credentials.json
+service-account*.json
+*token*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Marketing context (có thể chứa thông tin nhạy cảm)
+marketing-context.json
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code cache
+.claude/image-cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs có thể chứa dữ liệu khách hàng
+# (uncomment nếu muốn private)
+# .claude/skills/seo-audit/outputs/*.md
