@@ -1,0 +1,65 @@
+{
+  "_description": "Bộ nhớ performance của workspace affiliate. Cập nhật sau mỗi lần chạy content-performance-tracker. Được đọc bởi: creative-angle-system, hook-cta-optimizer, affiliate-post-writer.",
+  "version": "1.0",
+  "last_updated": "",
+  "winning_hooks": [
+    {
+      "_note": "Thêm hooks mới vào đây sau khi có data. Format: text, type, avg_er, platform, times_confirmed",
+      "_example": {
+        "text": "Tôi đã tốn 6 tháng làm điều này trước khi ai đó chỉ cho tôi cách đúng",
+        "type": "mistake",
+        "avg_er": 0,
+        "platform": "facebook",
+        "times_confirmed": 0
+      }
+    }
+  ],
+  "winning_angles": {
+    "_note": "Sắp xếp theo hiệu quả sau khi có data. Cập nhật thứ tự dựa trên ER thực tế.",
+    "facebook": [],
+    "threads": []
+  },
+  "best_posting_times": {
+    "_note": "Cập nhật từ timing performance analysis. Format: HH:MM-HH:MM",
+    "facebook": {
+      "top_1": "",
+      "top_2": "",
+      "top_3": "",
+      "worst": ""
+    },
+    "threads": {
+      "top_1": "",
+      "top_2": "",
+      "top_3": "",
+      "worst": ""
+    }
+  },
+  "best_formats": {
+    "_note": "Cập nhật từ format performance analysis",
+    "facebook": {
+      "best_for_reach": "",
+      "best_for_conversion": "",
+      "best_for_engagement": ""
+    },
+    "threads": {
+      "best_for_reach": "",
+      "best_for_conversion": "",
+      "best_for_engagement": ""
+    }
+  },
+  "winning_cta_patterns": {
+    "_note": "CTA patterns có click rate / comment rate cao nhất. Cập nhật từ CTA performance analysis.",
+    "facebook": [],
+    "threads": []
+  },
+  "avoid_patterns": {
+    "_note": "Patterns tương quan với ER thấp hoặc reach bị hạn chế",
+    "hooks": [],
+    "ctas": [],
+    "formats": [],
+    "timing": []
+  },
+  "products": {
+    "_note": "Lưu data riêng theo từng sản phẩm nếu cần phân tách"
+  }
+}
